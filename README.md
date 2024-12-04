@@ -1,0 +1,3 @@
+# Unhandled Division by Zero in Tcl
+
+This repository demonstrates a common error in Tcl: unhandled division by zero. The `badproc` procedure doesn't include error handling for cases where the divisor `$a` is 0, resulting in an error when the procedure is called with a 0 as the first argument.  The solution shows how to add error handling using a `try...catch` block to gracefully handle this situation.
